@@ -1,8 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+<title id="title">Training Transfer Analytics evaluation checklist</title>
+<desc id="desc">Evaluation checklist for evidence validity, source agreement, longitudinal persistence, transfer conditions, performance separation, and causal study design.</desc>
 <rect width="100%" height="100%" fill="#FAFBFA"/>
-<text x="60" y="64" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B2430">Training Transfer Analytics · evaluation dashboard</text>
-<text x="60" y="99" font-family="Arial, sans-serif" font-size="17" fill="#5B6660">Evaluation dimensions to inspect. Bars are illustrative only and do not report measured results.</text>
-<rect x="52" y="126" width="1096" height="300" rx="18" fill="#F3F5F3" stroke="#CDD3CF"/>
-<text x="70" y="189" font-family="Arial, sans-serif" font-size="17" fill="#26343B">transfer index</text><rect x="330" y="170" width="600" height="25" rx="8" fill="#E8EBE8"/><rect x="330" y="170" width="468" height="25" rx="8" fill="#5A7F82"/><text x="950" y="189" font-family="Arial, sans-serif" font-size="15" fill="#5B6660">illustrative</text><text x="70" y="259" font-family="Arial, sans-serif" font-size="17" fill="#26343B">behavior change</text><rect x="330" y="240" width="600" height="25" rx="8" fill="#E8EBE8"/><rect x="330" y="240" width="396" height="25" rx="8" fill="#5A7F82"/><text x="950" y="259" font-family="Arial, sans-serif" font-size="15" fill="#5B6660">illustrative</text><text x="70" y="329" font-family="Arial, sans-serif" font-size="17" fill="#26343B">manager evidence</text><rect x="330" y="310" width="600" height="25" rx="8" fill="#E8EBE8"/><rect x="330" y="310" width="348" height="25" rx="8" fill="#5A7F82"/><text x="950" y="329" font-family="Arial, sans-serif" font-size="15" fill="#5B6660">illustrative</text><text x="70" y="399" font-family="Arial, sans-serif" font-size="17" fill="#26343B">persistence</text><rect x="330" y="380" width="600" height="25" rx="8" fill="#E8EBE8"/><rect x="330" y="380" width="432" height="25" rx="8" fill="#5A7F82"/><text x="950" y="399" font-family="Arial, sans-serif" font-size="15" fill="#5B6660">illustrative</text>
-<text x="70" y="455" font-family="Arial, sans-serif" font-size="15" fill="#5B6660">Completion is not treated as proof that training changed workplace behavior.</text>
+<text x="60" y="64" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1B2430">Training Transfer Analytics · evaluation checklist</text>
+<text x="60" y="99" font-family="Arial, sans-serif" font-size="17" fill="#5B6660">No illustrative transfer score is presented as a validated workplace measure.</text>
+
+<rect x="60" y="140" width="330" height="130" rx="18" fill="#E8F1F3" stroke="#87949A"/>
+<text x="82" y="174" font-family="Arial" font-size="17" font-weight="700" fill="#1B2430">Evidence validity</text>
+<text x="82" y="203" font-family="Arial" font-size="14" fill="#26343B">Do self, manager, behavior, and</text>
+<text x="82" y="225" font-family="Arial" font-size="14" fill="#26343B">objective measures reflect application?</text>
+
+<rect x="435" y="140" width="330" height="130" rx="18" fill="#EEF3E8" stroke="#87949A"/>
+<text x="457" y="174" font-family="Arial" font-size="17" font-weight="700" fill="#1B2430">Source agreement</text>
+<text x="457" y="203" font-family="Arial" font-size="14" fill="#26343B">Where do raters or instruments</text>
+<text x="457" y="225" font-family="Arial" font-size="14" fill="#26343B">disagree, and why?</text>
+
+<rect x="810" y="140" width="330" height="130" rx="18" fill="#F5EDE4" stroke="#87949A"/>
+<text x="832" y="174" font-family="Arial" font-size="17" font-weight="700" fill="#1B2430">Observed persistence</text>
+<text x="832" y="203" font-family="Arial" font-size="14" fill="#26343B">Is application maintained across</text>
+<text x="832" y="225" font-family="Arial" font-size="14" fill="#26343B">actual repeated follow-ups?</text>
+
+<rect x="60" y="305" width="330" height="130" rx="18" fill="#ECE8F5" stroke="#87949A"/>
+<text x="82" y="339" font-family="Arial" font-size="17" font-weight="700" fill="#1B2430">Transfer conditions</text>
+<text x="82" y="368" font-family="Arial" font-size="14" fill="#26343B">Opportunity, support, tools, peers,</text>
+<text x="82" y="390" font-family="Arial" font-size="14" fill="#26343B">and workflow remain visible.</text>
+
+<rect x="435" y="305" width="330" height="130" rx="18" fill="#F4EFE8" stroke="#87949A"/>
+<text x="457" y="339" font-family="Arial" font-size="17" font-weight="700" fill="#1B2430">Performance separation</text>
+<text x="457" y="368" font-family="Arial" font-size="14" fill="#26343B">Does business performance move</text>
+<text x="457" y="390" font-family="Arial" font-size="14" fill="#26343B">differently from skill application?</text>
+
+<rect x="810" y="305" width="330" height="130" rx="18" fill="#EAF0EC" stroke="#87949A"/>
+<text x="832" y="339" font-family="Arial" font-size="17" font-weight="700" fill="#1B2430">Causal study design</text>
+<text x="832" y="368" font-family="Arial" font-size="14" fill="#26343B">If asking what training caused, use</text>
+<text x="832" y="390" font-family="Arial" font-size="14" fill="#26343B">a design that can support that claim.</text>
+
+<text x="60" y="485" font-family="Arial" font-size="15" fill="#5B6660">Completion, satisfaction, and post-training improvement alone are not proof of transfer or training causality.</text>
 </svg>
