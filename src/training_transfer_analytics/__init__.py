@@ -1,1 +1,1 @@
-"""Research prototype package."""
+"""Longitudinal workplace training-transfer analytics tools."""
