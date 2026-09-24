@@ -307,6 +307,13 @@ def _validate_timepoint(observation, index):
         observation.get("evidence")
     )
 
+    performance_outcome = observation.get("performance_outcome")
+    if performance_outcome is not None:
+        performance_outcome = _unit_interval(
+            performance_outcome,
+            f"observation {index} performance_outcome",
+        )
+
     conditions = observation.get("conditions")
     if phase == "baseline":
         if conditions is not None:
@@ -323,6 +330,7 @@ def _validate_timepoint(observation, index):
         "days_after": days_after,
         "evidence": evidence,
         "conditions": conditions,
+        "performance_outcome": performance_outcome,
     }
 
 
@@ -408,6 +416,7 @@ def analyze_trajectory(
                 "agreement_sd": evidence["agreement_sd"],
                 "disagreement_flag": evidence["disagreement_flag"],
                 "condition_review": condition_review,
+                "performance_outcome": observation["performance_outcome"],
             }
         )
 
@@ -448,6 +457,17 @@ def analyze_trajectory(
     else:
         change_per_30_days = None
 
+    baseline_performance = baseline["performance_outcome"]
+    final_performance = final["performance_outcome"]
+    performance_change = (
+        final_performance - baseline_performance
+        if (
+            baseline_performance is not None
+            and final_performance is not None
+        )
+        else None
+    )
+
     return {
         "baseline_score": baseline["application_score"],
         "first_followup_score": first["application_score"],
@@ -457,6 +477,9 @@ def analyze_trajectory(
         "observed_persistence_ratio": observed_persistence_ratio,
         "followup_change": followup_change,
         "change_per_30_days": change_per_30_days,
+        "baseline_performance_outcome": baseline_performance,
+        "final_performance_outcome": final_performance,
+        "performance_outcome_change": performance_change,
         "disagreement_timepoints": sum(
             1 for row in analyzed
             if row["disagreement_flag"]
@@ -483,6 +506,7 @@ def cohort_summary(trajectories):
         "final_change_from_baseline",
         "observed_persistence_ratio",
         "timepoints",
+        "performance_outcome_change",
     }
     for trajectory in trajectories:
         if (
@@ -497,6 +521,12 @@ def cohort_summary(trajectories):
         trajectory["observed_persistence_ratio"]
         for trajectory in trajectories
         if trajectory["observed_persistence_ratio"] is not None
+    ]
+
+    performance_changes = [
+        trajectory["performance_outcome_change"]
+        for trajectory in trajectories
+        if trajectory["performance_outcome_change"] is not None
     ]
 
     barrier_counts = Counter()
@@ -529,6 +559,11 @@ def cohort_summary(trajectories):
         "mean_observed_persistence_ratio": (
             mean(persistence_values)
             if persistence_values
+            else None
+        ),
+        "mean_performance_outcome_change": (
+            mean(performance_changes)
+            if performance_changes
             else None
         ),
         "barrier_counts": dict(
