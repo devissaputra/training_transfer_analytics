@@ -5,10 +5,25 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "training-transfer-analytics"
 version = "0.1.0"
-description = "Workplace transfer scoring baseline with evidence weighting, retention decay, and contextual barrier flags."
+description = "Longitudinal training-transfer analytics with multi-source workplace evidence, observed persistence, transfer-climate diagnostics, and sensitivity analysis."
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [{name = "Devis Wawan Saputra"}]
+readme = "README.md"
+keywords = [
+  "training-transfer",
+  "learning-and-development",
+  "workplace-learning",
+  "transfer-of-training",
+  "training-evaluation",
+  "capability-development",
+  "longitudinal-analysis",
+  "workforce-development",
+  "python",
+]
+
+[project.urls]
+Repository = "https://github.com/devissaputra/training_transfer_analytics"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
