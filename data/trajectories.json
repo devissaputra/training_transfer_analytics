@@ -1,0 +1,440 @@
+[
+  {
+    "employee": "E01",
+    "intervention": "analytics-workflow-training",
+    "competency": "applied_data_analysis",
+    "case": "strong transfer with supportive conditions",
+    "observations": [
+      {
+        "phase": "baseline",
+        "days_after": 0,
+        "performance_outcome": 0.50,
+        "evidence": [
+          {"source": "self", "value": 0.42, "confidence": 0.80},
+          {"source": "manager", "value": 0.40, "confidence": 0.90},
+          {"source": "behavior", "value": 0.41, "confidence": 0.90},
+          {"source": "objective", "value": 0.43, "confidence": 0.95}
+        ]
+      },
+      {
+        "phase": "followup",
+        "days_after": 30,
+        "performance_outcome": 0.55,
+        "evidence": [
+          {"source": "self", "value": 0.73, "confidence": 0.85},
+          {"source": "manager", "value": 0.69, "confidence": 0.90},
+          {"source": "behavior", "value": 0.71, "confidence": 0.92},
+          {"source": "objective", "value": 0.74, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.85,
+          "manager_support": 0.85,
+          "tool_access": 0.90,
+          "peer_support": 0.80,
+          "workflow_support": 0.85
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 60,
+        "performance_outcome": 0.56,
+        "evidence": [
+          {"source": "self", "value": 0.71, "confidence": 0.85},
+          {"source": "manager", "value": 0.70, "confidence": 0.90},
+          {"source": "behavior", "value": 0.70, "confidence": 0.92},
+          {"source": "objective", "value": 0.72, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.85,
+          "manager_support": 0.85,
+          "tool_access": 0.90,
+          "peer_support": 0.80,
+          "workflow_support": 0.85
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 90,
+        "performance_outcome": 0.56,
+        "evidence": [
+          {"source": "self", "value": 0.70, "confidence": 0.85},
+          {"source": "manager", "value": 0.68, "confidence": 0.90},
+          {"source": "behavior", "value": 0.69, "confidence": 0.92},
+          {"source": "objective", "value": 0.71, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.85,
+          "manager_support": 0.85,
+          "tool_access": 0.90,
+          "peer_support": 0.80,
+          "workflow_support": 0.85
+        }
+      }
+    ]
+  },
+  {
+    "employee": "E02",
+    "intervention": "analytics-workflow-training",
+    "competency": "applied_data_analysis",
+    "case": "strong application despite limited opportunity",
+    "observations": [
+      {
+        "phase": "baseline",
+        "days_after": 0,
+        "performance_outcome": 0.48,
+        "evidence": [
+          {"source": "self", "value": 0.44, "confidence": 0.80},
+          {"source": "manager", "value": 0.43, "confidence": 0.90},
+          {"source": "behavior", "value": 0.45, "confidence": 0.90},
+          {"source": "objective", "value": 0.46, "confidence": 0.95}
+        ]
+      },
+      {
+        "phase": "followup",
+        "days_after": 30,
+        "performance_outcome": 0.49,
+        "evidence": [
+          {"source": "self", "value": 0.70, "confidence": 0.85},
+          {"source": "manager", "value": 0.68, "confidence": 0.90},
+          {"source": "behavior", "value": 0.72, "confidence": 0.92},
+          {"source": "objective", "value": 0.71, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.30,
+          "manager_support": 0.80,
+          "tool_access": 0.90,
+          "peer_support": 0.75,
+          "workflow_support": 0.80
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 60,
+        "performance_outcome": 0.49,
+        "evidence": [
+          {"source": "self", "value": 0.71, "confidence": 0.85},
+          {"source": "manager", "value": 0.69, "confidence": 0.90},
+          {"source": "behavior", "value": 0.72, "confidence": 0.92},
+          {"source": "objective", "value": 0.72, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.32,
+          "manager_support": 0.80,
+          "tool_access": 0.90,
+          "peer_support": 0.75,
+          "workflow_support": 0.80
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 90,
+        "performance_outcome": 0.50,
+        "evidence": [
+          {"source": "self", "value": 0.72, "confidence": 0.85},
+          {"source": "manager", "value": 0.70, "confidence": 0.90},
+          {"source": "behavior", "value": 0.73, "confidence": 0.92},
+          {"source": "objective", "value": 0.73, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.35,
+          "manager_support": 0.80,
+          "tool_access": 0.90,
+          "peer_support": 0.75,
+          "workflow_support": 0.80
+        }
+      }
+    ]
+  },
+  {
+    "employee": "E03",
+    "intervention": "analytics-workflow-training",
+    "competency": "applied_data_analysis",
+    "case": "initial transfer followed by decline",
+    "observations": [
+      {
+        "phase": "baseline",
+        "days_after": 0,
+        "performance_outcome": 0.52,
+        "evidence": [
+          {"source": "self", "value": 0.49, "confidence": 0.80},
+          {"source": "manager", "value": 0.48, "confidence": 0.90},
+          {"source": "behavior", "value": 0.50, "confidence": 0.90},
+          {"source": "objective", "value": 0.51, "confidence": 0.95}
+        ]
+      },
+      {
+        "phase": "followup",
+        "days_after": 30,
+        "performance_outcome": 0.57,
+        "evidence": [
+          {"source": "self", "value": 0.76, "confidence": 0.85},
+          {"source": "manager", "value": 0.73, "confidence": 0.90},
+          {"source": "behavior", "value": 0.75, "confidence": 0.92},
+          {"source": "objective", "value": 0.74, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.75,
+          "manager_support": 0.65,
+          "tool_access": 0.85,
+          "peer_support": 0.70,
+          "workflow_support": 0.70
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 60,
+        "performance_outcome": 0.55,
+        "evidence": [
+          {"source": "self", "value": 0.66, "confidence": 0.85},
+          {"source": "manager", "value": 0.60, "confidence": 0.90},
+          {"source": "behavior", "value": 0.62, "confidence": 0.92},
+          {"source": "objective", "value": 0.63, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.65,
+          "manager_support": 0.48,
+          "tool_access": 0.85,
+          "peer_support": 0.60,
+          "workflow_support": 0.55
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 90,
+        "performance_outcome": 0.54,
+        "evidence": [
+          {"source": "self", "value": 0.60, "confidence": 0.85},
+          {"source": "manager", "value": 0.53, "confidence": 0.90},
+          {"source": "behavior", "value": 0.55, "confidence": 0.92},
+          {"source": "objective", "value": 0.56, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.58,
+          "manager_support": 0.42,
+          "tool_access": 0.85,
+          "peer_support": 0.55,
+          "workflow_support": 0.48
+        }
+      }
+    ]
+  },
+  {
+    "employee": "E04",
+    "intervention": "analytics-workflow-training",
+    "competency": "applied_data_analysis",
+    "case": "self and manager disagreement",
+    "observations": [
+      {
+        "phase": "baseline",
+        "days_after": 0,
+        "performance_outcome": 0.49,
+        "evidence": [
+          {"source": "self", "value": 0.50, "confidence": 0.80},
+          {"source": "manager", "value": 0.49, "confidence": 0.90},
+          {"source": "behavior", "value": 0.50, "confidence": 0.90},
+          {"source": "objective", "value": 0.51, "confidence": 0.95}
+        ]
+      },
+      {
+        "phase": "followup",
+        "days_after": 30,
+        "performance_outcome": 0.53,
+        "evidence": [
+          {"source": "self", "value": 0.86, "confidence": 0.80},
+          {"source": "manager", "value": 0.45, "confidence": 0.90},
+          {"source": "behavior", "value": 0.72, "confidence": 0.92},
+          {"source": "objective", "value": 0.75, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.80,
+          "manager_support": 0.75,
+          "tool_access": 0.85,
+          "peer_support": 0.80,
+          "workflow_support": 0.80
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 60,
+        "performance_outcome": 0.54,
+        "evidence": [
+          {"source": "self", "value": 0.82, "confidence": 0.80},
+          {"source": "manager", "value": 0.47, "confidence": 0.90},
+          {"source": "behavior", "value": 0.71, "confidence": 0.92},
+          {"source": "objective", "value": 0.74, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.80,
+          "manager_support": 0.75,
+          "tool_access": 0.85,
+          "peer_support": 0.80,
+          "workflow_support": 0.80
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 90,
+        "performance_outcome": 0.54,
+        "evidence": [
+          {"source": "self", "value": 0.79, "confidence": 0.80},
+          {"source": "manager", "value": 0.48, "confidence": 0.90},
+          {"source": "behavior", "value": 0.70, "confidence": 0.92},
+          {"source": "objective", "value": 0.73, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.80,
+          "manager_support": 0.75,
+          "tool_access": 0.85,
+          "peer_support": 0.80,
+          "workflow_support": 0.80
+        }
+      }
+    ]
+  },
+  {
+    "employee": "E05",
+    "intervention": "analytics-workflow-training",
+    "competency": "applied_data_analysis",
+    "case": "tool-access barrier with maintained application",
+    "observations": [
+      {
+        "phase": "baseline",
+        "days_after": 0,
+        "performance_outcome": 0.48,
+        "evidence": [
+          {"source": "self", "value": 0.43, "confidence": 0.80},
+          {"source": "manager", "value": 0.42, "confidence": 0.90},
+          {"source": "behavior", "value": 0.44, "confidence": 0.90},
+          {"source": "objective", "value": 0.45, "confidence": 0.95}
+        ]
+      },
+      {
+        "phase": "followup",
+        "days_after": 30,
+        "performance_outcome": 0.50,
+        "evidence": [
+          {"source": "self", "value": 0.68, "confidence": 0.85},
+          {"source": "manager", "value": 0.66, "confidence": 0.90},
+          {"source": "behavior", "value": 0.67, "confidence": 0.92},
+          {"source": "objective", "value": 0.69, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.75,
+          "manager_support": 0.75,
+          "tool_access": 0.30,
+          "peer_support": 0.70,
+          "workflow_support": 0.70
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 60,
+        "performance_outcome": 0.50,
+        "evidence": [
+          {"source": "self", "value": 0.67, "confidence": 0.85},
+          {"source": "manager", "value": 0.65, "confidence": 0.90},
+          {"source": "behavior", "value": 0.66, "confidence": 0.92},
+          {"source": "objective", "value": 0.68, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.75,
+          "manager_support": 0.75,
+          "tool_access": 0.32,
+          "peer_support": 0.70,
+          "workflow_support": 0.70
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 90,
+        "performance_outcome": 0.50,
+        "evidence": [
+          {"source": "self", "value": 0.66, "confidence": 0.85},
+          {"source": "manager", "value": 0.64, "confidence": 0.90},
+          {"source": "behavior", "value": 0.65, "confidence": 0.92},
+          {"source": "objective", "value": 0.67, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.75,
+          "manager_support": 0.75,
+          "tool_access": 0.35,
+          "peer_support": 0.70,
+          "workflow_support": 0.70
+        }
+      }
+    ]
+  },
+  {
+    "employee": "E06",
+    "intervention": "analytics-workflow-training",
+    "competency": "applied_data_analysis",
+    "case": "transfer improves while business outcome remains flat",
+    "observations": [
+      {
+        "phase": "baseline",
+        "days_after": 0,
+        "performance_outcome": 0.60,
+        "evidence": [
+          {"source": "self", "value": 0.40, "confidence": 0.80},
+          {"source": "manager", "value": 0.41, "confidence": 0.90},
+          {"source": "behavior", "value": 0.40, "confidence": 0.90},
+          {"source": "objective", "value": 0.42, "confidence": 0.95}
+        ]
+      },
+      {
+        "phase": "followup",
+        "days_after": 30,
+        "performance_outcome": 0.60,
+        "evidence": [
+          {"source": "self", "value": 0.66, "confidence": 0.85},
+          {"source": "manager", "value": 0.63, "confidence": 0.90},
+          {"source": "behavior", "value": 0.65, "confidence": 0.92},
+          {"source": "objective", "value": 0.66, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.80,
+          "manager_support": 0.80,
+          "tool_access": 0.85,
+          "peer_support": 0.75,
+          "workflow_support": 0.80
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 60,
+        "performance_outcome": 0.60,
+        "evidence": [
+          {"source": "self", "value": 0.66, "confidence": 0.85},
+          {"source": "manager", "value": 0.64, "confidence": 0.90},
+          {"source": "behavior", "value": 0.66, "confidence": 0.92},
+          {"source": "objective", "value": 0.67, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.80,
+          "manager_support": 0.80,
+          "tool_access": 0.85,
+          "peer_support": 0.75,
+          "workflow_support": 0.80
+        }
+      },
+      {
+        "phase": "followup",
+        "days_after": 90,
+        "performance_outcome": 0.60,
+        "evidence": [
+          {"source": "self", "value": 0.67, "confidence": 0.85},
+          {"source": "manager", "value": 0.65, "confidence": 0.90},
+          {"source": "behavior", "value": 0.67, "confidence": 0.92},
+          {"source": "objective", "value": 0.68, "confidence": 0.95}
+        ],
+        "conditions": {
+          "opportunity_to_perform": 0.80,
+          "manager_support": 0.80,
+          "tool_access": 0.85,
+          "peer_support": 0.75,
+          "workflow_support": 0.80
+        }
+      }
+    ]
+  }
+]
