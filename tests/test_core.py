@@ -48,24 +48,28 @@ TRAJECTORY = [
         "phase": "baseline",
         "days_after": 0,
         "evidence": evidence(0.45, 0.42, 0.40, 0.44),
+        "performance_outcome": 0.50,
     },
     {
         "phase": "followup",
         "days_after": 30,
         "evidence": evidence(0.72, 0.68, 0.70, 0.73),
         "conditions": GOOD_CONDITIONS,
+        "performance_outcome": 0.55,
     },
     {
         "phase": "followup",
         "days_after": 60,
         "evidence": evidence(0.70, 0.69, 0.69, 0.71),
         "conditions": GOOD_CONDITIONS,
+        "performance_outcome": 0.56,
     },
     {
         "phase": "followup",
         "days_after": 90,
         "evidence": evidence(0.69, 0.67, 0.68, 0.70),
         "conditions": GOOD_CONDITIONS,
+        "performance_outcome": 0.56,
     },
 ]
 
@@ -305,6 +309,20 @@ class CoreTests(unittest.TestCase):
         )
         self.assertIsNone(
             result["change_per_30_days"]
+        )
+
+    def test_performance_outcome_is_separate_from_transfer(self):
+        result = core.analyze_trajectory(
+            TRAJECTORY,
+            weights=WEIGHTS,
+        )
+        self.assertAlmostEqual(
+            result["performance_outcome_change"],
+            0.06,
+        )
+        self.assertNotAlmostEqual(
+            result["performance_outcome_change"],
+            result["final_change_from_baseline"],
         )
 
     def test_low_opportunity_remains_visible_as_barrier(self):
