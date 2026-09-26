@@ -1,3 +1,7 @@
+# Calculation reading guide: ../CALCULATIONS.md (repository root).
+# Persistence ratio = final follow-up application / first follow-up application.
+# Missing sources cause active weights to be renormalized. Ratios are undefined when the first follow-up is zero and can exceed one. Before/after change does not establish a training effect without a credible counterfactual.
+
 import math
 from collections import Counter, defaultdict
 from collections.abc import Mapping, Sequence

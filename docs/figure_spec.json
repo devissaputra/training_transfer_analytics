@@ -1,0 +1,38 @@
+{
+  "question": "Does observed workplace application persist after training?",
+  "data": "Synthetic baseline and follow-up trajectories with self, manager, behavior and objective evidence.",
+  "method": "Weight evidence within sources; combine available sources; separate application, conditions and business outcomes.",
+  "formula": "Persistence ratio = final follow-up application / first follow-up application.",
+  "interpretation": "Missing sources cause active weights to be renormalized. Ratios are undefined when the first follow-up is zero and can exceed one. Before/after change does not establish a training effect without a credible counterfactual.",
+  "status": "SYNTHETIC / RULE-BASED PROTOTYPE | no educational validity claim",
+  "source": "results/review_examples.json",
+  "rows": [
+    {
+      "label": "final/first follow-up: .6/.8",
+      "path": [
+        "outputs",
+        "final/first follow-up: .6/.8"
+      ],
+      "unit": "unitless"
+    },
+    {
+      "label": "change from baseline: .6-.3",
+      "path": [
+        "outputs",
+        "change from baseline: .6-.3"
+      ],
+      "unit": "unitless"
+    },
+    {
+      "label": "30-day change: (.6-.8)/60×30",
+      "path": [
+        "outputs",
+        "30-day change: (.6-.8)/60×30"
+      ],
+      "unit": "unitless"
+    }
+  ],
+  "table_title": "Worked example — illustrative, not a measured research result",
+  "evidence_note": "Illustrative inputs and calculations are in scripts/review_examples.py.",
+  "finding": "This longitudinal prototype separates workplace application from transfer conditions and business outcomes. It combines multiple evidence sources with explicit weights, tracks baseline and follow-up changes, and reports disagreement and weight sensitivity instead of hiding them in a single score. The bundled trajectories are synthetic, and observed persistence is described without claiming that training caused the change."
+}

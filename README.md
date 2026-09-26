@@ -1,14 +1,29 @@
 # Training Transfer Analytics
 
+This longitudinal prototype separates workplace application from transfer conditions and business outcomes. It combines multiple evidence sources with explicit weights, tracks baseline and follow-up changes, and reports disagreement and weight sensitivity instead of hiding them in a single score. The bundled trajectories are synthetic, and observed persistence is described without claiming that training caused the change.
+
+## Start here
+
+- [Calculations, evidence and verification scope](CALCULATIONS.md)
+- [Figure sources and exact numerical paths](docs/figure_spec.json)
+- [Data status](data/README.md)
+
+![Study question, data, design and interpretation](assets/review_overview.svg)
+
+![Defined calculation and source-linked evidence](assets/review_calculations.svg)
+
+**Review scope:** 31 existing unittest checks passed. The bundled demonstration executed successfully in this review.
+
+## Detailed project documentation
+
 > Longitudinal workplace transfer analytics with multi-source evidence, observed persistence, transfer-condition diagnostics, and evidence-weight sensitivity.
 
 [![CI](https://github.com/devissaputra/training_transfer_analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/devissaputra/training_transfer_analytics/actions/workflows/ci.yml)
 
-![Training Transfer Analytics architecture](assets/architecture.svg)
 
 **Area:** Learning & Development · Training Transfer · Workplace Capability  
 **Status:** working research prototype  
-**Author:** Devis Wawan Saputra
+**Author:** Devis Saputra
 
 ## Why this project exists
 
@@ -51,7 +66,6 @@ This allows the analysis to represent transfer improving while business performa
 
 ## Longitudinal workflow
 
-![Training Transfer Analytics data flow](assets/data_flow.svg)
 
 Each individual trajectory contains one pre-training baseline, one or more post-training follow-ups, multi-source workplace-application evidence, transfer-condition measures at follow-up, and an optional separate performance outcome.
 
@@ -107,7 +121,6 @@ These are descriptive statistics, not treatment-effect estimates.
 
 ## Synthetic demo
 
-![Synthetic demo snapshot](assets/demo_snapshot.svg)
 
 The bundled data contain six synthetic cases:
 
@@ -152,7 +165,6 @@ The current baseline uses only the Python standard library.
 
 ## Evaluation plan
 
-![Training Transfer Analytics evaluation checklist](assets/evaluation_dashboard.svg)
 
 A credible study should separately examine evidence validity, source agreement, observed persistence, transfer conditions, performance separation, and whether the design can support any causal claim about training.
 
